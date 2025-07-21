@@ -1,12 +1,12 @@
 const CACHE_NAME = 'scorekeeper-v1'; // Cache version
 const urlsToCache = [
     '/', // Cache the root path
-    '/index.html',
-    '/style.css',
-    '/script.js',
-    '/manifest.json',
-    '/icons/icon-192x192.png', // Make sure your icon paths are correct
-    '/icons/icon-512x512.png'
+    'index.html',
+    'style.css',
+    'script.js',
+    'manifest.json',
+    'icons/icon-192x192.png', // Make sure your icon paths are correct
+    'icons/icon-512x512.png'
     // Add any other assets (images, fonts) you want to cache here
 ];
 
